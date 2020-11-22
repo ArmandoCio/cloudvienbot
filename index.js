@@ -41,10 +41,7 @@ bot.on("message", (message) => {
       message.channel.send({ files: ["./mikali/" + vidNumber3 + ".mp4"] });
       break;
 
-    case "sauce":
-      let imageNumber = Math.floor(Math.random() * 360000) + 1
-      message.channel.send("https://nhentai.net/g/" + imageNumber + "/");
-      break;
+
   }
 });
 
