@@ -45,7 +45,7 @@ bot.on('message' , message =>{
 
     case "sauce":
         let sauceNumber = Math.floor(Math.random()* 360000)+1
-         message.channel.send( "https://nhentai.net/g/" + +"/" )
+         message.channel.send( "https://nhentai.net/g/" + sauceNumber +"/" )
 break;
     }
 })
